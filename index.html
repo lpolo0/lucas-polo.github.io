@@ -9,12 +9,11 @@ and open the template in the editor.
         <title>Lucas Polo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="text/css" href="js/libs/twitter-bootstrap/css/bootstrap.css">
-        <link rel="text/css" href="js/libs/twitter-bootstrap/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="js/libs/twitter-bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="js/libs/twitter-bootstrap/css/bootstrap-theme.css">
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-inverse">
+        <nav class="navbar navbar-inverse">
                 <div class="container">
                     <div class="navbar-header">
                         <!-- the next tag is necessary for bootstrap menus, do not remove -->
@@ -28,13 +27,13 @@ and open the template in the editor.
                     </div>
                     <div class="collapse navbar-collapse" id="navHeaderCollapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="#">Perfis</a>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Perfis <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="http://br.linkedin.com/pub/lucas-polo/29/987/1b4">Linkedin</a></li>
-                                    <li><a href="http://www.researchgate.net/profile/Lucas_Polo">Researchgate</a></li>
-                                    <li><a href="https://www.mendeley.com/profiles/lucas-polo1/">Mendeley</a></li>
-                                    <li><a href="http://orcid.org/0000-0003-0571-1154">ORCID</a></li>
+                                    <li><a href="http://br.linkedin.com/pub/lucas-polo/29/987/1b4" target="_blank">Linkedin</a></li>
+                                    <li><a href="http://www.researchgate.net/profile/Lucas_Polo" target="_blank">Researchgate</a></li>
+                                    <li><a href="https://www.mendeley.com/profiles/lucas-polo1/" target="_blank">Mendeley</a></li>
+                                    <li><a href="http://orcid.org/0000-0003-0571-1154" target="_blank">ORCID</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Tutoriais</a></li>
@@ -44,7 +43,6 @@ and open the template in the editor.
                     </div><!--/.nav-collapse -->
                 </div>
             </nav>
-        </header>
         <div>TODO write content</div>
         
         <script src="js/libs/jquery/jquery.js"></script>
